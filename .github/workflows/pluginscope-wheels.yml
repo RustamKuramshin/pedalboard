@@ -14,7 +14,8 @@ name: PluginScope wheels
 on:
   push:
     tags:
-      - "v*+pluginscope.*"
+      # "+" is a pattern operator in GitHub filters and must be escaped.
+      - 'v*\+pluginscope.*'
   workflow_dispatch: {}
 
 permissions:
