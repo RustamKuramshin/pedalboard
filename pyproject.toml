@@ -56,7 +56,7 @@ classifiers = [
     "Programming Language :: Python :: 3.15",
 ]
 dependencies = ["numpy"]
-version = "0.9.26"
+version = "0.9.26+pluginscope.1"
 
 [project.optional-dependencies]
 test = [
